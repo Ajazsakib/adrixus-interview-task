@@ -1,0 +1,51 @@
+.home {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+}
+.show-table {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.show-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.show-table table tr th, .show-table table tr td {
+    border: 1px solid #ededed;
+    height: 50px;
+    text-align: center;
+    color: #666666;
+}
+.pagination ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.pagination ul li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    background-color: green;
+    cursor: pointer;
+}
+.search-bar {
+    display: flex;
+    justify-content: flex-end;
+}
+.search-bar .form-control {
+    height: 40px;
+    border: 1px solid #999999;
+    padding-left: 16px;
+    margin-bottom: 30px;
+}
+.search-bar .form-control:focus {
+    outline: 0;
+}
